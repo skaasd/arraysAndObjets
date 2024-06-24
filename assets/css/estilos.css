@@ -1,0 +1,26 @@
+.main-section {
+    background-image: url('../img/img-main.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+.card {
+    height: 100%;
+}
+
+.card img {
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+}
+
+#venta .col-md-4:nth-child(n+5),
+#alquiler .col-md-4:nth-child(n+5) {
+  display: none;
+}
